@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 25%/75%; /* The % makes it responsive */
+    background-color: #3498db;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#result, #score {
+    margin: 20px;
+    font-size: 18px;
+}
